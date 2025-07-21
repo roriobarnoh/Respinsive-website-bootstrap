@@ -42,7 +42,7 @@ function AppNavbar() {
             <ScrollLink to="info" smooth={true} duration={500} offset={-70} className='nav-link-clean mx-2'>
               Info
             </ScrollLink>
-            {user ? (
+            {/* {user ? (
               <Button variant="outline-primary" size="sm" onClick={handleLogout} className="ms-2">
                 Logout
               </Button>
@@ -53,9 +53,9 @@ function AppNavbar() {
                 </Nav.Link>
                 <Nav.Link as={RouterLink} to="/register" className="ms-2">
                   Register
-                </Nav.Link>
+                // </Nav.Link>
               </>
-            )}
+            )} */}
           </Nav>
         </Navbar.Collapse>
       </Container>
