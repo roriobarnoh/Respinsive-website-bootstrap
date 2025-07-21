@@ -14,7 +14,7 @@ function HomePage() {
                 <div className="hero-content">
                     <h1 className="display-4 fw-bold">Welcome to My Website</h1>
                     <p className="lead">Your journey begins here</p>
-                    <Button variant="primary" size="lg" onClick={() => navigate('/register')}>
+                    <Button variant="primary" size="lg" onClick={() => navigate('/')}>
                         Get Started
                     </Button>
                 </div>
